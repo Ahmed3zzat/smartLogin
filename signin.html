@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Smart System</title>
+</head>
+
+
+<body>
+    <div class="form d-flex justify-content-center mt-5">
+        <div class="box text-white p-5 w-50 d-flex flex-column align-items-center gap-2">
+            <h1>Smart Login System</h1>
+            <div class="myInput w-100 ">
+                <input id = "userEmail" class="w-100 border-white bg-transparent text-light p-2 rounded-2" type="email" name="userName"
+                    placeholder="Enter Your email">
+            </div>
+            <div class="myInput w-100 my-3">
+                <input id="userPassword" class="w-100 border-white bg-transparent text-light p-2 rounded-2" type="password" name="userName" placeholder="Enter Your password">
+            </div>
+            <p class="vaildate is-valid d-none"></p>
+            <div class="myBtn my-3 w-100">
+                <button type="button" class="btn btn-outline-info w-100">Login</button>
+            </div>
+            <div class="myPara fs-5">
+                <p>Don’t have an account? <a class="myLink list-unstyled text-white text-decoration-none" href="">Sign Up</a></p>
+            </div>
+            <p class="show is-valid"></p>
+        </div>
+    </div>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
